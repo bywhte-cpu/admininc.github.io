@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ADMIN INC - Instagram hesap güvenliği ve destek merkezi.">
+<title>ADMIN INC | Support Center</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Inter:wght@400;600;700;800&display=swap');
+
+*{box-sizing:border-box}
+body{
+ margin:0;background:#080808;color:#fff;
+ font-family:Inter,Arial,sans-serif;
+}
+header{
+ height:85px;padding:0 8%;
+ display:flex;align-items:center;
+ justify-content:space-between;
+ border-bottom:1px solid #252525;
+}
+.logo{
+ font-family:Orbitron,sans-serif;
+ font-size:23px;font-weight:900;
+ letter-spacing:3px;
+}
+.logo span{color:#777}
+nav a{
+ color:#aaa;text-decoration:none;
+ margin-left:25px;font-size:12px;
+}
+.hero{
+ min-height:570px;padding:110px 8%;
+ background:radial-gradient(ellipse at 75% 45%,#252525 0%,#111 25%,#080808 65%);
+}
+.tag{
+ color:#999;letter-spacing:4px;
+ font-size:11px;
+}
+h1{
+ font-family:Orbitron,sans-serif;
+ font-size:clamp(45px,8vw,85px);
+ line-height:1.15;
+ margin:25px 0;
+}
+h1 span{color:#777}
+.hero p{
+ color:#999;line-height:1.9;
+ max-width:500px;font-size:14px;
+}
+.btn{
+ display:inline-block;margin-top:25px;
+ padding:16px 25px;
+ background:#fff;color:#080808;
+ text-decoration:none;font-size:12px;
+ font-weight:800;letter-spacing:1px;
+}
+.section{padding:85px 8%}
+.section h2{
+ font-family:Orbitron,sans-serif;
+ font-size:30px;
+}
+.cards{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+ gap:18px;margin-top:35px;
+}
+.card{
+ padding:30px;background:#111;
+ border:1px solid #292929;
+ min-height:220px;
+}
+.card .number{color:#666;font-size:12px}
+.card h3{font-size:18px}
+.card p{font-size:12px;color:#999;line-height:1.8}
+.card a{color:white;font-size:12px}
+.admin{
+ background:#111;border:1px solid #333;
+ padding:35px;margin-top:25px;
+ display:flex;justify-content:space-between;
+ align-items:center;gap:20px;
+}
+.admin a{color:white}
+footer{
+ padding:35px 8%;border-top:1px solid #252525;
+ color:#777;font-size:11px;
+ display:flex;justify-content:space-between;
+ gap:15px;flex-wrap:wrap;
+}
+@media(max-width:650px){
+ header{padding:0 5%}
+ nav{display:none}
+ .hero{padding:90px 7%}
+ .section{padding:65px 7%}
+ .admin{display:block}
+}
+</style>
+</head>
+<body>
+
+<header>
+ <div class="logo">ADMIN <span>INC.</span></div>
+ <nav>
+  <a href="#services">HİZMETLER</a>
+  <a href="#about">HAKKIMIZDA</a>
+  <a href="admin.html">ADMIN PANEL</a>
+ </nav>
+</header>
+
+<section class="hero">
+ <div class="tag">DIGITAL SECURITY PLATFORM / 2026</div>
+ <h1>ADMIN<br><span>INC.</span></h1>
+ <p>
+ Instagram hesap güvenliği, hesap kurtarma,
+ sahte hesap bildirimleri ve resmî destek
+ süreçleri için modern destek platformu.
+ </p>
+ <a class="btn" href="#services">PLATFORMU KEŞFET →</a>
+</section>
+
+<section class="section" id="services">
+ <div class="tag">01 / SERVICES</div>
+ <h2>DESTEK MERKEZİ</h2>
+
+ <div class="cards">
+  <div class="card">
+   <div class="number">SERVICE / 01</div>
+   <h3>Hesap Güvenliği</h3>
+   <p>Hesabını korumak ve erişimini geri kazanmak için resmî rehber.</p>
+   <a href="https://www.instagram.com/hacked/">RESMÎ MERKEZ ↗</a>
+  </div>
+
+  <div class="card">
+   <div class="number">SERVICE / 02</div>
+   <h3>Sahte Hesap Bildirimi</h3>
+   <p>Taklit hesapları Instagram'ın resmî bildirim kanallarından bildir.</p>
+   <a href="https://help.instagram.com/">BİLDİRİM MERKEZİ ↗</a>
+  </div>
+
+  <div class="card">
+   <div class="number">SERVICE / 03</div>
+   <h3>İtiraz Rehberi</h3>
+   <p>Hesap kısıtlamaları ve itiraz süreçleri hakkında bilgilendirme.</p>
+   <a href="https://help.instagram.com/">YARDIM MERKEZİ ↗</a>
+  </div>
+ </div>
+</section>
+
+<section class="section" id="about">
+ <div class="tag">02 / ABOUT</div>
+ <h2>BEYOND THE LIMIT.</h2>
+ <p style="color:#999;line-height:2;max-width:600px">
+ ADMIN INC, dijital hesap güvenliği ve resmî
+ destek süreçleri hakkında bilgilendirme sunan
+ bağımsız bir platformdur.
+ Instagram veya Meta tarafından işletilmez.
+ </p>
+ <div class="admin">
+  <div>
+   <div class="tag">PRIVATE ACCESS</div>
+   <h3>ADMIN CONTROL PANEL</h3>
+   <p style="color:#888;font-size:12px">
+    Yönetim alanı ve site ayarları.
+   </p>
+  </div>
+  <a href="admin.html">PANELİ AÇ →</a>
+ </div>
+</section>
+
+<footer>
+ <div class="logo">ADMIN <span>INC.</span></div>
+ <div>© 2026 ADMIN INC</div>
+ <div>INDEPENDENT SUPPORT PLATFORM</div>
+</footer>
+
+</body>
+</html>
